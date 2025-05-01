@@ -1,0 +1,47 @@
+# --- Ambiente Virtual ---
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Streamlit / Dados ---
+# Caso queira versionar apenas o código, ignore os CSVs de dados brutos
+*.csv
+*.xlsx
+*.parquet
+
+# --- Logs e arquivos temporários ---
+*.log
+*.tmp
+*.swp
+*.swo
+
+# --- IDEs e editores ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Distribuição Python ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Arquivos de cache ---
+.cache/
+*.cache/
+
+# --- Chaves e credenciais (se houver) ---
+.env
+*.key
+*.pem
