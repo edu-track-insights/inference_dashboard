@@ -8,7 +8,7 @@ __pycache__/
 
 # --- Streamlit / Dados ---
 # Caso queira versionar apenas o código, ignore os CSVs de dados brutos
-*.csv
+#*.csv
 *.xlsx
 *.parquet
 
